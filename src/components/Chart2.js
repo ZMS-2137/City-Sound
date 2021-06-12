@@ -1,5 +1,5 @@
 import React from 'react'
-import { Line } from 'react-chartjs-2'
+import { Line, defaults } from 'react-chartjs-2'
 
 const Chart = () => {
 
@@ -7,15 +7,11 @@ const Chart = () => {
     <div>
       <Line
         data={{
-          color: '#fff',
-          // defaults: {
-          //   color: '#fff'
-          // },
           labels: [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ],
           datasets: [
             {
-              label: 'Temperature',
-              data: [0.4, 0, 0.2, 0.5, 1, 0.4, 0, 0.2, 0.5, 1, ],
+              label: 'Air Preassure',
+              data: [0.4, 0.6, 0.2, 0, 1, 0.4, 0.5, 0.2, 0.5, 1, ],
               backgroundColor: [
                 'rgba(255, 255, 255, 1)',
               ],

@@ -14,8 +14,8 @@ const Chart = () => {
           labels: [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ],
           datasets: [
             {
-              label: 'Temperature',
-              data: [0.4, 0, 0.2, 0.5, 1, 0.4, 0, 0.2, 0.5, 1, ],
+              label: 'Humidity',
+              data: [1, 0.3, 0.8, 0.6, 1, 0.4, 0.5, 0.6, 0.7, 0.3, ],
               backgroundColor: [
                 'rgba(255, 255, 255, 1)',
               ],
@@ -44,6 +44,7 @@ const Chart = () => {
           plugins: {
             legend: {
               // display: false
+              color: 'white'
             }
           },
 		      pointRadius: 0
