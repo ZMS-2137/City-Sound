@@ -82,8 +82,8 @@ function App() {
               Search for your city to extract the current weather. 
               Temperature, humidity and air pressure values change the sound you hear.
           </div>
-          <div className="weatherInfo">
-
+          <div className="weatherInfo1">
+          Our Github: https://github.com/ZMS-2137/City-Sound
           </div>
         </div>
       </div>

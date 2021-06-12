@@ -9,7 +9,7 @@ function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
     width: 900,
-    height: 800,
+    height: 850,
     // resizable: false,
     webPreferences: {
       nodeIntegration: true,
